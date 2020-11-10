@@ -25,37 +25,37 @@ class ArtsModSkad(loader.Module):
                     "А вот тут я не понял ты что... </code>" + f"<code>{text}</code>")
             await message.edit(nepon)
 
-        if text == "podpiska":
+        if text == "podpiskaq":
             await message.edit("<code>{~x~}\n"
                                       "[><]\n"
                                       "^  ^\n"
                                "Я не понял ты ещё не подписался на меня в Инстаграме -></code> @pro100sans")
 
 
-    async def cowsaycmd(self, message):
-        """Используй .cowsay <текст>."""
+    async def cowsayqcmd(self, message):
+        """Используй .cowsayq <текст>."""
         text = utils.get_args_raw(message)
         if not text:
             await message.edit('<b>Нет текста после команды :c</b>')
             return
         else:
-            cowsay = ("<code> "
+            cowsayq = ("<code> "
                       f"< {text} >\n"
                       "\n"
                       "     \   ^__^\n"
                       "	     \  (00)\_______\n"
-                      "         (__)\       )\/\n"
+                      "         (__)\  FUCK  )\/\n"
                       "             ||----w||\n"
                       "	            ||     ||</code>")
-            await message.edit(cowsay)
+            await message.edit(cowsayq)
 
 
-    async def padayucmd(self, message):
-        """Используй .padayu <текст>; ничего."""
+    async def padayuqcmd(self, message):
+        """Используй .padayuq <текст>; ничего."""
         text = utils.get_args_raw(message)
         if not text:
             text = ("ПАДАЮ")
-            padayu = ("┓┏┓┏┓┃\n"
+            padayuq = ("┓┏┓┏┓┃\n"
                       "┛┗┛┗┛┃\n"
                       "┓┏┓┏┓┃\n"
                       "┛┗┛┗┛┃\n"
@@ -83,9 +83,9 @@ class ArtsModSkad(loader.Module):
                       "┛┗┛┗┛┃\n"
                       "┓┏┓┏┓┃\n"
                       "┛┗┛┗┛┃\n")
-            await message.edit(padayu)
+            await message.edit(padayuq)
         else:
-            padayu = ("┓┏┓┏┓┃\n"
+            padayuq = ("┓┏┓┏┓┃\n"
                       "┛┗┛┗┛┃\n"
                       "┓┏┓┏┓┃\n"
                       "┛┗┛┗┛┃\n"
@@ -113,15 +113,15 @@ class ArtsModSkad(loader.Module):
                       "┛┗┛┗┛┃\n"
                       "┓┏┓┏┓┃\n"
                       "┛┗┛┗┛┃\n")
-            await message.edit(padayu)
+            await message.edit(padayuq)
 
 
-    async def priletelcmd(self, message):
-        """Используй .prilitel <текст>; ничего."""
+    async def priletelqcmd(self, message):
+        """Используй .prilitelq <текст>; ничего."""
         text = utils.get_args_raw(message)
         if not text:
             text = ("Я ЛЮБЛЮ СОСАТЬ ХУИ, А ТЫ?!")
-            prilitel = ("▬▬▬.◙.▬▬▬\n"
+            prilitelq = ("▬▬▬.◙.▬▬▬\n"
                         "  ═▂▄▄▓▄▄▂\n"
                         "◢◤ █▀▀████▄▄▄▄◢◤\n"
                         "█▄ █ █▄ ███▀▀▀▀▀▀▀╬\n"
@@ -165,9 +165,9 @@ class ArtsModSkad(loader.Module):
                         f"╬═╬☻/ - <b>{text}</b>\n"
                         "╬═╬/▌\n"
                         "╬═╬/ \ ")
-            await message.edit(prilitel)
+            await message.edit(prilitelq)
         else:
-            prilitel = ("▬▬▬.◙.▬▬▬\n"
+            prilitelq = ("▬▬▬.◙.▬▬▬\n"
                         "  ═▂▄▄▓▄▄▂\n"
                         "◢◤ █▀▀████▄▄▄▄◢◤\n"
                         "█▄ █ █▄ ███▀▀▀▀▀▀▀╬\n"
@@ -211,15 +211,15 @@ class ArtsModSkad(loader.Module):
                         f"╬═╬☻/ - <b>{text}</b>\n"
                         "╬═╬/▌\n"
                         "╬═╬/ \ ")
-            await message.edit(prilitel)
+            await message.edit(prilitelq)
 
 
-    async def huytebecmd(self, message):
-        """Используй .huytebe <текст>; ничего."""
+    async def huytebeqcmd(self, message):
+        """Используй .huytebeq <текст>; ничего."""
         text = utils.get_args_raw(message)
         if not text:
             text = ("МАЯК ТЕБЕ В РОТ!")
-            huytebe = ("...............▄▄▄▄▄\n"
+            huytebeq = ("...............▄▄▄▄▄\n"
                        "..............▄▌░░░░▐▄\n"
                        "............▐░░░░░░░▌\n"
                        "....... ▄█▓░░░░░░▓█▄\n"
@@ -241,9 +241,9 @@ class ArtsModSkad(loader.Module):
                        "..................▀▌▒▀▒▐▀\n"
                        "\n"
                        f"<b>{text}</b>")
-            await message.edit(huytebe)
+            await message.edit(huytebeq)
         else:
-            huytebe = ("...............▄▄▄▄▄\n"
+            huytebeq = ("...............▄▄▄▄▄\n"
                        "..............▄▌░░░░▐▄\n"
                        "............▐░░░░░░░▌\n"
                        "....... ▄█▓░░░░░░▓█▄\n"
@@ -265,22 +265,22 @@ class ArtsModSkad(loader.Module):
                        "..................▀▌▒▀▒▐▀\n"
                        "\n"
                        f"<b>{text}</b>")
-            await message.edit(huytebe)
+            await message.edit(huytebeq)
 
 
-    async def lolcmd(self, message):
-        """Используй .lol."""
-        lol = ("┏━┓┈┈╭━━━━╮┏━┓┈┈\n"
+    async def lolqcmd(self, message):
+        """Используй .lolq."""
+        lolq = ("┏━┓┈┈╭━━━━╮┏━┓┈┈\n"
                "┃╱┃┈┈┃╱╭╮╱┃┃╱┃┈┈\n"
                "┃╱┗━┓┃╱┃┃╱┃┃╱┗━┓\n"
                "┃╱╱╱┃┃╱╰╯╱┃┃╱╱╱┃\n"
                "┗━━━┛╰━━━━╯┗━━━┛\n")
-        await message.edit(lol)
+        await message.edit(lolq)
 
 
-    async def fuckyoucmd(self, message):
-        """Используй .fuckyou."""
-        fuckyou = ("┏━┳┳┳━┳┳┓\n"
+    async def fuckyouqcmd(self, message):
+        """Используй .fuckyouq."""
+        fuckyouq = ("┏━┳┳┳━┳┳┓\n"
                    "┃━┫┃┃┏┫━┫┏┓\n"
                    "┃┏┫┃┃┗┫┃┃┃┃\n"
                    "┗┛┗━┻━┻┻┛┃┃\n"
@@ -288,112 +288,112 @@ class ArtsModSkad(loader.Module):
                    "┣┓┃┃┃┃┣┫┃┏┻┻┫\n"
                    "┃┃┃┃┃┃┃┃┣┻┫┃┃\n"
                    "┗━┻━┻━┻┛┗━━━┛\n")
-        await message.edit(fuckyou)
+        await message.edit(fuckyouq)
 
 
-    async def housecmd(self, message):
-        """Используй .house."""
-        house = ("╯▅╰╱▔▔▔▔▔▔▔╲╯╯\n"
+    async def houseqcmd(self, message):
+        """Используй .houseq."""
+        houseq = ("╯▅╰╱▔▔▔▔▔▔▔╲╯╯\n"
                  "▕▕╱╱╱╱╱╱╱╱╱╲╲╭╭\n"
                  "▕▕╱╱╱╱╱╱╱╱┛▂╲╲╭\n"
                  "╱▂▂▂▂▂▂╱╱┏▕╋▏╲╲\n"
                  "▔▏▂┗┓▂▕▔┛▂┏▔▂▕▔\n"
                  "▕▕╋▏▕╋▏▏▕┏▏▕╋▏▏\n"
                  "▕┓▔┗┓▔┏▏▕┗▏ ┓▔┏\n")
-        await message.edit(house)
+        await message.edit(houseq)
 
 
-    async def hellocmd(self, message):
-        """Используй .hello."""
-        hello = ("┈┏┓┏┳━┳┓┏┓┏━━┓┈\n"
+    async def helloqcmd(self, message):
+        """Используй .helloq."""
+        helloq = ("┈┏┓┏┳━┳┓┏┓┏━━┓┈\n"
                  "┈┃┃┃┃┏┛┃┃┃┃┏┓┃┈\n"
                  "┈┃┗┛┃┗┓┃┃┃┃┃┃┃┈\n"
                  "┈┃┏┓┃┏┛┃┃┃┃┃┃┃┈\n"
                  "┈┃┃┃┃┗┓┗┫┗┫╰╯┃┈\n"
                  "┈┗┛┗┻━┻━┻━┻━━┛┈\n")
-        await message.edit(hello)
+        await message.edit(helloq)
 
 
-    async def coffeecmd(self, message):
-        """Используй .coffee <текст>; ничего."""
+    async def coffeeqcmd(self, message):
+        """Используй .coffeeq <текст>; ничего."""
         text = utils.get_args_raw(message)
         if not text:
             text = ("Это тебе :з")
-            coffee = ("─▄▀─▄▀\n"
+            coffeeq = ("─▄▀─▄▀\n"
                       "──▀──▀\n"
                       "█▀▀▀▀▀█▄\n"
                       "█░░░░░█─█\n"
                       "▀▄▄▄▄▄▀▀\n\n"
                       f"<b>{text}</b>")
-            await message.edit(coffee)
+            await message.edit(coffeeq)
         else:
-            coffee = ("─▄▀─▄▀\n"
+            coffeeq = ("─▄▀─▄▀\n"
                       "──▀──▀\n"
                       "█▀▀▀▀▀█▄\n"
                       "█░░░░░█─█\n"
                       "▀▄▄▄▄▄▀▀\n\n"
                       f"<b>{text}</b>")
-            await message.edit(coffee)
+            await message.edit(coffeeq)
 
 
-    async def tvcmd(self, message):
-        """Используй .tv <текст>; ничего."""
+    async def tvqcmd(self, message):
+        """Используй .tvq <текст>; ничего."""
         text = utils.get_args_raw(message)
         if not text:
             text = ("ТЕЛЕВИЗОР ГОВОРИТ ЧТО ТЫ НЕ ПОДПИСАН НА VitecP")
-            tv = ("░▀▄░░▄▀\n"
+            tvq = ("░▀▄░░▄▀\n"
                   "▄▄▄██▄▄▄▄▄░▀█▀▐░▌\n"
                   "█▒░▒░▒░█▀█░░█░▐░▌\n"
                   "█░▒░▒░▒█▀█░░█░░█\n"
                   "█▄▄▄▄▄▄███══════\n\n"
                   f"<b>{text}</b>")
-            await message.edit(tv)
+            await message.edit(tvq)
         else:
-            tv = ("░▀▄░░▄▀\n"
+            tvq = ("░▀▄░░▄▀\n"
                   "▄▄▄██▄▄▄▄▄░▀█▀▐░▌\n"
                   "█▒░▒░▒░█▀█░░█░▐░▌\n"
                   "█░▒░▒░▒█▀█░░█░░█\n"
                   "█▄▄▄▄▄▄███══════\n\n"
                   f"<b>{text}</b>")
-            await message.edit(tv)
+            await message.edit(tvq)
 
 
-    async def grencmd(self, message):
-        """Используй .gren <текст>; ничего."""
+    async def grenqcmd(self, message):
+        """Используй .grenq <текст>; ничего."""
         text = utils.get_args_raw(message)
         if not text:
             text = ("ГРАНАТУ ТЕБЕ В РОТ! МАРМОК©")
-            gren = ("─▄▀▀███═◯\n"
+            grenq = ("─▄▀▀███═◯\n"
                     "▐▌▄▀▀█▀▀▄\n"
                     "█▐▌─────▐▌\n"
                     "█▐█▄───▄█▌\n"
                     "▀─▀██▄██▀\n\n"
                     f"<b>{text}</b>")
-            await message.edit(gren)
+            await message.edit(grenq)
         else:
-            gren = ("─▄▀▀███═◯\n"
+            grenq = ("─▄▀▀███═◯\n"
                     "▐▌▄▀▀█▀▀▄\n"
                     "█▐▌─────▐▌\n"
                     "█▐█▄───▄█▌\n"
                     "▀─▀██▄██▀\n\n"
                     f"<b>{text}</b>")
-            await message.edit(gren)
+            await message.edit(grenq)
 
 
-    async def bruhcmd(self, message):
-        """Используй .bruh."""
-        bruh = ("╭━━╮╱╱╱╱╱╭╮\n"
+    async def bruhqcmd(self, message):
+        """Используй .bruhq."""
+        bruhq = ("╭━━╮╱╱╱╱╱╭╮\n"
                 "┃╭╮┃╱╱╱╱╱┃┃\n"
                 "┃╰╯╰┳━┳╮╭┫╰━╮\n"
                 "┃╭━╮┃╭┫┃┃┃╭╮┃\n"
                 "┃╰━╯┃┃┃╰╯┃┃┃┃\n"
                 "╰━━━┻╯╰━━┻╯╰╯\n")
-        await message.edit(bruh)
+        await message.edit(bruhq)
 
 
-    async def unocmd(self, message):
-        """Используй .uno."""
-        uno = ("⣿⣿⣿⡿⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇\n"
+    async def unoqcmd(self, message):
+        """Используй .unoq."""
+        unoq = ("⣿⣿⣿⡿⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇\n"
                "⣿⣿⡟⡴⠛⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇\n"
                "⣿⡏⠴⠞⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇\n"
                "⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇\n"
@@ -406,13 +406,13 @@ class ArtsModSkad(loader.Module):
                "⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢣⠞⢺⣿⡇\n"
                "⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢡⡴⣣⣿⣿⡇\n"
                "⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⣿⣿⣿⡇")
-        await message.edit(uno)
+        await message.edit(unoq)
 
 
-    async def huycmd(self, message):
-        """Используй .huy <emoji>; ничего."""
+    async def huyqcmd(self, message):
+        """Используй .huyq <emoji>; ничего."""
         emoji = utils.get_args_raw(message)
-        huy = ("🍆🍆\n"
+        huyq = ("🍆🍆\n"
                "🍆🍆🍆\n"
                "  🍆🍆🍆\n"
                "    🍆🍆🍆\n"
@@ -427,12 +427,12 @@ class ArtsModSkad(loader.Module):
                " 🍆🍆🍆  🍆🍆🍆\n"
                "    🍆🍆        🍆🍆")
         if emoji:
-            huy = huy.replace('🍆', emoji)
-        await message.edit(huy)
+            huyq = huyq.replace('🍆', emoji)
+        await message.edit(huyq)
 
 
-    async def impscmd(self, message):
-        """Используй .imps <@ или реплай>."""
+    async def impsqcmd(self, message):
+        """Используй .impsq <@ или реплай>."""
         reply = await message.get_reply_message()
         args = utils.get_args_raw(message)
         if not args and not reply:
@@ -441,19 +441,19 @@ class ArtsModSkad(loader.Module):
             user = await utils.get_user(await message.get_reply_message())
         if args:
             user = await message.client.get_entity(args)
-        imps = ['wasn`t the impostor', 'was the impostor']
-        imp = ("<code>.      　。　　　　•　    　ﾟ　　.      .     。\n"
+        impsq = ['wasn`t the impostor', 'was the impostor']
+        impq = ("<code>.      　。　　　　•　    　ﾟ　　.      .     。\n"
                "　　.　　　.　　　  .　　　.　　　　　。　　   。　   .\n"
                "　.　　      。        ඞ   。　    .     　.　      •      .\n"
                f"•     {user.first_name} {choice(imps)} 。　   .\n"
                f"　 。     {randint(1, 5)} impostor(s) remains.　　　.　 　.\n"
                ",　　　　.　 .　　       .        •   •    。.\n"
                "。  •　   .   　ﾟ 　  •  　ﾟ .        .    　.</code>")
-        await message.edit(imp)
+        await message.edit(impq)
 
 
-    async def fcmd(self, message):
-        """Используй .f"""
+    async def fqcmd(self, message):
+        """Используй .fq"""
         r = random.randint(0, 6)
         logger.debug(r)
         if r == 0:
