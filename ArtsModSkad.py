@@ -10,7 +10,7 @@ def register(cb):
 
 class ArtsModSkad(loader.Module):
     """Юникод арты"""
-    strings = {'name': 'ArtsOfSkad'}
+    strings = {'name': 'ArtsModSkad'}
 
     async def neponcmd(self, message):
         """Используй .nepon <текст>."""
