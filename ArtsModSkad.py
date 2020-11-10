@@ -4,13 +4,9 @@ from .. import loader, utils
 from random import randint, choice
 logger = logging.getLogger(__name__)
 
-
-def register(cb):
-    cb(ArtsModSkad())
-
-class ArtsModSkad(loader.Module):
+class ArtsSkadMod(loader.Module):
     """Юникод арты"""
-    strings = {'name': 'ArtsModSkad'}
+    strings = {'name': 'ArtsSkadMod'}
 
     async def neponcmd(self, message):
         """Используй .nepon <текст>."""
