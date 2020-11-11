@@ -406,9 +406,9 @@ class ArtsSkadMod(loader.Module):
 
 
     async def megapanda(self, message):
-        """Используй .megapanda <emoji>; ничего."""
+        """Используй .megapanda. <emoji>; ничего."""
         emoji = utils.get_args_raw(message)
-        huyq = ("⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n"
+        megapanda = ("⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n"
                " ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n"
                " ⬜⬜⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬛⬛⬛⬜\n"
                " ⬜⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬛⬛⬛⬛⬜\n"
