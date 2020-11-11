@@ -405,7 +405,7 @@ class ArtsSkadMod(loader.Module):
         await message.edit(unos)
 
 
-    async def megapanda(self, message):
+    async def megapandacmd(self, message):
         """Используй .megapanda <emoji>; ничего."""
         emoji = utils.get_args_raw(message)
         megapanda = ("⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n"
