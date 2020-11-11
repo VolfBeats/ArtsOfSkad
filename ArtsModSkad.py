@@ -405,10 +405,10 @@ class ArtsSkadMod(loader.Module):
         await message.edit(unos)
 
 
-    async def megapandacmd(self, message):
-        """Используй .megapanda <emoji>; ничего."""
+    async def pandacmd(self, message):
+        """Используй .panda. <emoji>; ничего."""
         emoji = utils.get_args_raw(message)
-        megapanda = ("⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n"
+        panda = ("⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n"
                " ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n"
                " ⬜⬜⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬛⬛⬛⬜\n"
                " ⬜⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬛⬛⬛⬛⬜\n"
@@ -438,8 +438,8 @@ class ArtsSkadMod(loader.Module):
                " ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n"
                " ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n")
         if emoji:
-            megapanda = megapanda.replace('♥', emoji)
-        await message.edit(megapanda)
+            panda = megapanda.replace('♥', emoji)
+        await message.edit(panda)
 
 
     async def impsscmd(self, message):
