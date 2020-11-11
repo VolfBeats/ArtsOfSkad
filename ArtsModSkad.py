@@ -463,7 +463,7 @@ class ArtsSkadMod(loader.Module):
         await message.edit(imps)
 
 
-    async def cat(self, message):
+    async def catcmd(self, message):
         """Используй .cat"""
         r = random.randint(0, 6)
         logger.debug(r)
