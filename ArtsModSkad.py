@@ -404,36 +404,7 @@ class ArtsSkadMod(loader.Module):
                "⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⣿⣿⣿⡇")
         await message.edit(unos)
 
-
-    async def pandacmd(self, message):
-        """Используй .panda. <emoji>; ничего."""
-        emoji = utils.get_args_raw(message)
-                                panda = ("<code>Мурррррррр..../n"
-                                        "_______________$$$$__$$$$/n"
-                                        "____$$$$ $$____$$$$$$$$_$$/n"
-                                        "____$$__$$$$$$$$$$$$$___$/n"
-                                        "____$_________ $$$$$_$$$$$$/n"
-                                        "____$$_________$$$$$$$$$$$/n"
-                                        "___$$_____________ __$$$$$/n"
-                                        "___$_____________________$/n"
-                                        "___$___________________ __$$$$$/n"
-                                        "______$$$$$________$$$$$$/n"
-                                        "_____$___♥♥♥♥♥___♥♥♥♥♥___$/n"
-                                        "____$$__♥♥♥♥♥♥♥_♥♥♥♥♥♥♥__$$/n"
-                                        "____$__♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥___$/n"
-                                        "_____$$_♥♥♥♥♥♥♥♥♥♥♥♥♥♥___$/n"
-                                        "______$$_♥♥♥♥♥♥♥♥♥♥♥♥__$$/n"
-                                        "_____ __$__♥♥♥♥♥♥♥♥♥♥__$/n"
-                                        "____$$$$$__♥♥♥♥♥♥♥♥__$$$$$/n"
-                                        "___$$____$__ ♥♥♥♥♥♥__$____$$/n"
-                                        "___$$$$$$$$__♥♥♥♥__$$$$$$$$/n"
-                                        "___________$__ ♥♥__$/n"
-                                        "____________$__♥_$/n</code>")
-        if emoji:
-            panda = megapanda.replace('♥️', emoji)
-        await message.edit(panda)
-
-
+        
     async def impscmd(self, message):
         """Используй .impss <@ или реплай>."""
         reply = await message.get_reply_message()
@@ -476,4 +447,4 @@ class ArtsSkadMod(loader.Module):
         elif r == 7:
             await utils.answer(message, "(=ω=)..nyaa")                      
         else:
-            await utils.answer(message, "Здесь был VetalKot XD")
+            await utils.answer(message, "Здесь был Vetalkot XD")
