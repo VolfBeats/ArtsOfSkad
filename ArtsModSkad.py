@@ -408,7 +408,7 @@ class ArtsSkadMod(loader.Module):
 async def pandacmd(self, message):
         """Используй .panda. <emoji>; ничего."""
         emoji = utils.get_args_raw(message)
-        panda = ("Мурррррррр..../n"
+        panda = ("<code>Мурррррррр..../n"
                                         "_______________$$$$__$$$$/n"
                                         "____$$$$ $$____$$$$$$$$_$$/n"
                                         "____$$__$$$$$$$$$$$$$___$/n"
@@ -428,13 +428,13 @@ async def pandacmd(self, message):
                                         "___$$____$__ ♥♥♥♥♥♥__$____$$/n"
                                         "___$$$$$$$$__♥♥♥♥__$$$$$$$$/n"
                                         "___________$__ ♥♥__$/n"
-                                        "____________$__♥_$/n")
+                                        "____________$__♥_$/n</code>")
         if emoji:
             panda = megapanda.replace('♥️', emoji)
         await message.edit(panda)
 
 
-    async def impsscmd(self, message):
+    async def impscmd(self, message):
         """Используй .impss <@ или реплай>."""
         reply = await message.get_reply_message()
         args = utils.get_args_raw(message)
@@ -448,7 +448,7 @@ async def pandacmd(self, message):
         imps = ("<code>.      　。　　　　•　    　ﾟ　　.      .     。\n"
                "　　.　　　.　　　  .　　　.　　　　　。　　   。　   .\n"
                "　.　　      。        ඞ   。　    .     　.　      •      .\n"
-               f"•     {user.first_name} {choice(impss)} 。　   .\n"
+               f"•     {user.first_name} {choice(imps)} 。　   .\n"
                f"　 。     {randint(1, 5)} impostor(s) remains.　　　.　 　.\n"
                ",　　　　.　 .　　       .        •   •    。.\n"
                "。  •　   .   　ﾟ 　  •  　ﾟ .        .    　.</code>")
