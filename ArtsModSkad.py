@@ -405,10 +405,10 @@ class ArtsSkadMod(loader.Module):
         await message.edit(unos)
 
 
-    async def kitticmd(self, message):
-        """Используй .kitti. <emoji>; ничего."""
+async def pandacmd(self, message):
+        """Используй .panda. <emoji>; ничего."""
         emoji = utils.get_args_raw(message)
-                               kitti = ("__________________$$$$/n"
+        panda = ("__________________$$$$/n"
                                         "_______________$$$$__$$$$/n"
                                         "____$$$$ $$____$$$$$$$$_$$/n"
                                         "____$$__$$$$$$$$$$$$$___$/n"
@@ -430,8 +430,8 @@ class ArtsSkadMod(loader.Module):
                                         "___________$__ ♥♥__$/n"
                                         "____________$__♥_$/n")
         if emoji:
-            kitti = megakitti.replace('♥', emoji)
-        await message.edit(kitti)
+            panda = megapanda.replace('♥️', emoji)
+        await message.edit(panda)
 
 
     async def impsscmd(self, message):
