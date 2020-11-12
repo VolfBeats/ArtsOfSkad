@@ -40,7 +40,7 @@ class ArtsSkadMod(loader.Module):
                       "\n"
                       "     \   ^__^\n"
                       "	     \  (00)\_______\n"
-                      "         (__)\  FUCK  )\/\n"
+                      "         (__)\  FUCK!  )\/\n"
                       "             ||----w||\n"
                       "	            ||     ||</code>")
             await message.edit(cowsays)
