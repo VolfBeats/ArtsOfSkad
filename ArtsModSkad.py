@@ -430,7 +430,7 @@ class ArtsSkadMod(loader.Module):
                                         "___________$__ ♥♥__$/n"
                                         "____________$__♥_$/n")
         if emoji:
-            kitti = kitti.replace('♥', emoji)
+            kitti = megakitti.replace('♥', emoji)
         await message.edit(kitti)
 
 
