@@ -440,7 +440,7 @@ class ArtsSkadMod(loader.Module):
                                         "─────────(♥)██(♥)\n"
                                         "───────────(♥)\n")
         if emoji:
-            panda = panda.replace('$', emoji)
+            panda = panda.replace('█', emoji)
         await message.edit(panda)
         
 
