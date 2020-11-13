@@ -429,8 +429,7 @@ class ArtsSkadMod(loader.Module):
     async def pandacmd(self, message):
         """Используй .panda. <emoji>; ничего."""
         emoji = utils.get_args_raw(message)
-        panda = ("_______________$$$___$$\n"
-                                        "────(♥)(♥)(♥)────(♥)(♥)(♥)\n"
+        panda = ("────(♥)(♥)(♥)────(♥)(♥)(♥)\n"
                                         "──(♥)██████(♥)(♥)██████(♥)\n"
                                         "─(♥)████████(♥)████████(♥)\n"
                                         "─(♥)██████████████████(♥)\n"
