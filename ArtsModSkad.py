@@ -429,7 +429,7 @@ class ArtsSkadMod(loader.Module):
     async def pandacmd(self, message):
         """Используй .panda. <emoji>; ничего."""
         emoji = utils.get_args_raw(message)
-                                panda = ("<code>Мурррррррр..../n"
+                                panda = ("_______________$$__$$$_$/n"
                                         "_______________$$$$__$$$$/n"
                                         "____$$$$ $$____$$$$$$$$_$$/n"
                                         "____$$__$$$$$$$$$$$$$___$/n"
@@ -449,9 +449,9 @@ class ArtsSkadMod(loader.Module):
                                         "___$$____$__ ♥♥♥♥♥♥__$____$$/n"
                                         "___$$$$$$$$__♥♥♥♥__$$$$$$$$/n"
                                         "___________$__ ♥♥__$/n"
-                                        "____________$__♥_$/n</code>")
+                                        "____________$__♥_$")
         if emoji:
-            panda = megapanda.replace('♥️', emoji)
+            panda = panda.replace('♥️', emoji)
         await message.edit(panda)
         
 
