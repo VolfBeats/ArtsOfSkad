@@ -429,7 +429,7 @@ class ArtsSkadMod(loader.Module):
     async def pandacmd(self, message):
         """Используй .panda. <emoji>; ничего."""
         emoji = utils.get_args_raw(message)
-        panda = ("────(♥)(♥)(♥)────(♥)(♥)(♥)\n"
+        panda = ("───(♥)(♥)(♥)────(♥)(♥)(♥)\n"
                                         "──(♥)██████(♥)(♥)██████(♥)\n"
                                         "─(♥)████████(♥)████████(♥)\n"
                                         "─(♥)██████████████████(♥)\n"
@@ -446,7 +446,7 @@ class ArtsSkadMod(loader.Module):
 
     async def catcmd(self, message):
         """Используй .cat"""
-        r = random.randint(0, 8)
+        r = random.randint(0, 9)
         logger.debug(r)
         if r == 0:
             await utils.answer(message, "ଲ(ⓛ ω ⓛ)ଲ")
@@ -463,6 +463,8 @@ class ArtsSkadMod(loader.Module):
         elif r == 6:
             await utils.answer(message, "( • )( • )ԅ(≖‿≖ԅ)")
         elif r == 7:
-            await utils.answer(message, "(=ω=)..nyaa")                      
+            await utils.answer(message, "(=ω=)..nyaa")   
+        elif r == 8:
+            await utils.answer(message, "https://i.gifer.com/4xCA.gif")
         else:
             await utils.answer(message, "Здесь был Vetalkot XD")
